@@ -22,6 +22,12 @@ html {
     min-height: 400px;
 }
 
+/* Portfolio card image height */
+.portfolio-card-img {
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
 .carousel-item img {
     height: 100vh;
     width: 100%;
@@ -33,13 +39,6 @@ html {
         height: 300px;
     }
 }
-/* Portfolio card image height */
-.portfolio-card-img {
-    height: 280px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
 
 
 .portfolio-card:hover .portfolio-card-img {
